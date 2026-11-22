@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя информационная страница</title>
+</head>
+<body>
+    <header>
+        <h1>Бахтин Илья Сергеевич</h1>
+        <b>
+        <p>Курс: №4.</p>
+        <p>Группа: ПИз-231</p>
+        <p>Направление: Прикладная информатика (в экономике).</p>
+        </b>
+         <hr>
+    </header>
+
+    <main>
+        <section>
+            <h2>Информация об образовании</h2>
+            <p>Получаемый уровень образования: <b>Высшее (Бакалавриат).</b></p>
+            <p>Место получения образования: <a href="https://kemsu.ru"><b>Кемеровский государственный университет</b></a>.</p>
+            <p>Год предварительного окончания обучения: <b>2027.</b></p> 
+             <hr>
+        </section>
+
+        <section>
+            <h2>Мои социальные сети</h2>
+            <table style="border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th scope="col" style="border: 1px solid; padding: 6px 12px;">Социальная сеть</th>
+                        <th scope="col" style="border: 1px solid; padding: 6px 12px;">Ссылка</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid; padding: 6px 12px;">💬 MAX</td>
+                        <td style="border: 1px solid; padding: 6px 12px;"><a href="#">Мой профиль</a></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid; padding: 6px 12px;">👥 Vkontakte</td>
+                        <td style="border: 1px solid; padding: 6px 12px;"><a href="#">Мой профиль</a></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid; padding: 6px 12px;">✈️ Telegramm</td>
+                        <td style="border: 1px solid; padding: 6px 12px;"><a href="#">Мой профиль</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
